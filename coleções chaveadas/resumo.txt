@@ -1,0 +1,56 @@
+map
+cont muMap = new Map( )
+uma coloção de arrays no formato [chave, valor ];
+pode iterado por um loop for...of
+
+metodos
+
+adicionar elementos, ler e deletar 
+
+const myMap = new Map( )
+
+myMap.set('aple', 'fruit');
+//Map(1) {"aple" => "fruit"}
+
+myMap.get("apple");  - voltar
+//"fruit"
+
+myMap.delete("apple") - deletar 
+//true
+
+myMap.get("aple") - retornar valor 
+//underfined
+
+diferença de map e objetos
+- maps podem ter chaves de qualquer tipo e objetos sempre tem chaves no formato de strings
+- maps possuem a propriedade length - tem o length pronto
+- sao mais faceis de iterar
+- utilizado quando o valor das chaves e desconhecido , objeto é conhecido 
+- os valores tem o mesmo tipo  no objeto não precisa 
+
+___________________________
+
+Set
+sets são estruturas que armazenam apenas valores unicos e no array podem ser repetidos 
+
+metodos 
+
+const mySet = new Set( );
+
+mySet.add(1); adicionar 
+mySet.add(5);
+mySet.has(1); ver 
+//true
+mySet.has(3);
+//false
+mySet.delet(5); deletar 
+
+diferenca entre 
+-possui valores unicos
+-em vez de propriedade length, consulta-se o numero de registros pela propriedade size
+-não possui os metodos map, filtert, redice etc
+
+
+
+
+

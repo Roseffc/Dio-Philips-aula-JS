@@ -1,0 +1,72 @@
+MODULOS 
+
+modulos srquivos JS que tem a capacidade de exportar e importar informações
+de outros arquuivos do mesmo tipo
+entry -           main.js  imp 
+             /
+import - 
+sisplay.js            import -   exp
+                          count.js 
+
+vantagens 
+-organização do código - cada arquivo tem suas responsabilidade 
+-compartilhamento de variaveis e escopos diferentes
+-explicita as dependencias dos arquivos 
+
+exportar 
+named export - para exportar mais de um arquivos ou individual
+export function 
+return 
+
+default export 
+só pode ha
+ver um por arquivo 
+
+importar 
+named erxport - impor {      }  from 'caminho arquivo.js'
+
+default esports 
+import valorDefaut from 'caminho.js'
+
+pode dar apelido para certars funcoes 
+import { arquivos as apelido } from './arquivo.js';
+
+import * as INFOS                    (importa tudo)
+
+vinculando html
+<script>type="module" src = "./main.js"></script>
+
+sempre estão em Module Cheatsheet
+pode ser usado em js ou mjs
+ao importar não esquece ./
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                

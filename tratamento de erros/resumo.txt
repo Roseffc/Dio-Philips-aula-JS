@@ -1,0 +1,73 @@
+tratamento de erros 
+
+Erros do ECMAScript
+ECMAScript Error - erros que ocorrem em tempo de execução (esqueceu alguma coisa, variavel não declarada)
+composto por mesnagem, nome, linha, call stack
+
+DOMException - erros relacionados ao codigo rodado em uma pagina da web,(string com caractere invalido, inserir 
+elemento em local invalido) arvore de elementos Dom dentro de uma pagina da WEB
+
+trhow e return 
+
+return-retorna uma string 
+throw - retorna o erro 
+
+try ... catch
+declaracao que dentro do bloco try - se tiver algum tipo de erro vc manipula dentro do catch
+
+finally - tambem pode ter o finally 
+
+criando errros personalizados 
+
+manipular o objeto Error
+
+new Erros(message - mais utilizada , fileName, lineNumber - não funcionada em alguns browsers)
+
+new Error(message, fileName, lineNumber)
+// todos os parametros são opcionais
+
+const MeuErro = new Error('Mensagem Inválida');
+throw MeuErro;
+
+resultado:
+Uncaught Erros: Mensagem Invalida
+at <anonymous>:1:17
+(anonymous)@VM60:1
+
+o erro pode ter um nome
+
+const MeuErro = new Error('Mensagem Inválida');
+MeuErro.name = 'InvalidMessage';
+
+throw MeuErro;
+
+resultado:
+Uncaught InvalidMessage: Mensagem Invalida
+at <anonymous>:1:17
+(anonymous)@VM60:1
+
+MeuErro.name
+"InvalidMessage"
+
+MeuErro.stack
+"InvalidMessage: Mensagem Invalida\n   at<anonymopus>:3:18"
+
+MeuErro
+InvalidMessage: Mensagem Invalida
+at <anonymous>:1:17
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,173 @@
+função 
+estrutura - variáveis criadas dentro de uma funcção apenas podem 
+ser utilizadas dentro dela. 
+function nome(parametros){
+instruções
+}
+quando invocamos o return ele para a funcao e retorna
+a duncao para ser exetada 
+
+função anonima
+uma variavl pode armazenar uma função
+
+const soma = function (a,b) {
+return a + b;
+}
+soma(1,2) // 3
+
+função autoinvocavel 
+
+conhecida pelo termo IIfe
+(
+function ( ) {
+let name = Rose 
+return name; 
+}
+)( );
+
+podemos ter funcões que receberm parametros e podemos armazenar em uma constante 
+
+
+callbacks 
+
+é uma função passada com argumento para outra função - com ele tem maior controle da otrdem de 
+chamadas
+
+
+_________________________________________
+parametros 
+
+valores padrão de um parametro - 
+
+arguments - uma coloção com todos os parametros passados quando
+a função foi invocada .
+
+______________________________
+Arrays 
+Spreas . . .  - uma forma de lidar separadamento com os elementos de uma array
+Rest - combina os argumentos em um array - o que era independente se torna array 
+
+___________________________________
+
+Objetos 
+object destructuring 
+entre chaves {}, podem filtrar apenas os dados que nos interessam 
+em um objeto 
+
+__________________________________
+Loops
+
+if/else 
+if coloca uma condição (), else resulta = true;
+
+js não tem elseif - sempre tem espaço 
+else if 
+
+switch - equivale a uma comparação de tipo e valor 
+precisa de um valor default
+
+ideal quando precosa comparar vários valores 
+switch(id) 
+
+___________________________________________
+ for e while 
+
+for - loop dentro de elementos iteráveius (arrays, string)
+
+for(let i = 0; 
+
+For....in 
+loop entre propriedades ebumeráveis de um objeto 
+
+for(.....in   obj)
+
+For...of 
+loop entre estruturas iteráveis (arrays, string)
+
+while 
+
+loop que executa instruções até que a condição se torne falsa 
+
+
+Do while 
+
+loop -----------------------, sempre vai executar uma vez, a primeira execução sempre ocorre.
+
+______________________________________________
+this 
+
+é uma referencia de contexto 
+
+no exemplo, this refere-se ao objeto pessoa.
+seu valor pode mudar ce acordo com o lugar no código onde foi chamada
+
+em um ojeto sozinho - proprio objeto dentro do metodo
+sozinha - objeto global(em navegadores, window)
+função - objeto global 
+evento - elemento que recebeu o evento 
+
+___________________________________________________________
+
+manipulando seu valor (this)
+
+call - objeto ao qual o this se refere 
+console.log(this,name)
+é possivel passar parametros para essa função separando-os por virgulas 
+soma.call(...,...,..);
+
+apply - parece com call, diferença é que na hora de passar os argumentos precisam ser dentro
+de uma array [   ] 
+(myObj, [....,....])
+
+bind - clona a estrutura da função onde é chamada e aplica o valor do objeto passado como 
+paramentro 
+
+_________________________________________________________________
+
+Arrow functions 
+
+representada =>
+ ............ = () => {
+return "       "
+
+quando for pequena não precisa colocar return 
+caso exista apenas uma linha, pode dispensar as chaves e o return
+------------------ apenas um parametro, pode dispensar os parenteses 
+
+
+arrow function não faz hoisting (chama variavel antes da fincao), sempçre tem 
+que declara-la antes de chama-la.
+
+restrições da arrow function 
+não funciona o this, arguments e o contrutor como new.
+
+sempre utilizar para metodos objetos 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

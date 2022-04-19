@@ -1,0 +1,156 @@
+ATRIBUIÇÃO DE VALORES 
+case type 
+Original Variable as String - some awesome var
+Camel Case - someAwesomeVar
+Snake Case - some_awesome_var
+Kebab Case - some-awesome-var
+Pascal Case - SomeAwesomeVar
+Upper Case Snake Case - SOMO_AWESOME_VAR
+
+variáveis e let
+
+var 
+
+let - escopo de bloco 
+
+tem escopos diferentes e não interferem uma na operação da outra
+hoisting - atribuir valor a varivél antes de declarar 
+
+declaração é escrever var ou let e igualar a alguma coisa 
+rea tribuição é so o nome sem atrelar 
+
+________________________________________________________
+contantes 
+-declatrada em SNAKE_UPPER_CASE
+-escopo de bloco 
+-nãp faz hoisting assim como 
+- não pode reatribuir o valor de uma constante, o valor não muda 
+-não pode redeclarar o valor de uma constante 
+
+variável - pode ser global ou local - pode redeclarar - pode reatribuir e pode hoisting 
+
+let - pode ser bloco - não red - pode reat - não hoist
+
+cont - bloco - não red - não rest - não hoist 
+
+___________________________________________________________
+
+VARIÁVEIS E TIPOS 
+JS - tem tipagem dinâmica 
+antes de declarar um valor um valor não precisa especificar o tipo dele (voce pode modificar o tipo dela)
+para checar colocar typeof espaco enome da variavel 
+
+dados primitivos - numeros, strings (não tem métodos dentro deles, escrito com letra minuscula)
+
+
+dados compostos - ojetos e arrays 
+
+____________________________________________________________________
+strings 
+são textos ou frases, valores declarados " "  ou {  } entre ${ } são variáveis que podem passar para dentro da string
+new String (S com letra maiuscula) = objeto 
+
+concat - junta duas strings 
+concatenado.length - tamanho 9
+
+let = vazio (declarar string vazia )
+
+string tipo de dado interavel nome[1]
+
+indice comeca do 0
+tamanho comeca do 1
+
+concatenado - variavel que pode ser mudado 
+concatenado = nome + "  " + sobrenome
+
+strings 
+metodos importantes
+- concatenacao -  
+- propriedade lengt - ver tamanho
+- iterabilidade - poder chegar o que existe em cada item 
+- formatação - mudar tudo para maiusculo ou minusculo
+- index das letras 
+
+_______________________________________
+numbers 
+inteiros ou decimais 
+let num = 100
+100 + 3
+
+modulo 
+math - várias funcoes 
+
+typeof Math
+
+___________________________
+Booleans
+verdadeiro - true
+falso - false 
+let validation = 3 ===0
+cimparação retorna valor booleano
+
+validation.String()
+
+__________________________________
+Arrays é a mesma coisa que vetores
+lista iterável de elementos 
+começa no 0
+let array = [ ]
+é um objeto , declara com [ ]
+
+array.push(3) - adiciona final 
+array.pop - tira elemento final array 
+         shift - tira primeiro 
+          anshift - adiciona 
+
+____________________________
+objetos - declara { }
+ler obj = { }
+typeof obj 
+
+obj.name = "Julia" 
+
+_____________________________________
+Enpty, null e undefined
+0 - valo vazio   
+null - valor não existe , falso nulo  
+undefined - não existe, indefinido 
+____________________________________________
+palindromo - frase ou palavra que se pode ler, da esquerda para direita 
+vise-versa 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

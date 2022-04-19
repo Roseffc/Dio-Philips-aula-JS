@@ -1,0 +1,46 @@
+=   dizer que é igual - atribuindo valor (x=y)
++= dizer que x é igual a x + y           (x+=Y)
+*=             
+/=
+%=
+
+aritmética 
++
+-
+*
+**  exponencial
+/    divisao
+%  modulo
+++  incrementar
+--    decrementar
+
+comparação 
+==  igual a 
+=== mesmo valor e mesmo tipo
+!=  diferente 
+!== valor e tipos diferentes
+> maior que 
+<menor que 
+>= maior ou igual
+>= menor ou igual 
+
+lógica
+&& "e" lógico
+|| "ou" lógico
+! "não"lógico 
+
+condicional 
+
+if (condition)
+
+else (statement)
+
+
+    
+
+
+
+
+
+
+

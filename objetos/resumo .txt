@@ -1,0 +1,70 @@
+orientação a objetos 
+
+paradigmas da programação - formas de programar 
+
+os programas sao objetos que possuem uma serie de propriedade
+
+pilares a orientação a objeto 
+-herança - o objeto filho herda propriedades e metodos do objeto pai
+
+-polimorfismo - podem herdar a mesma classe pai, mas se comportarem de forma diferente 
+quando invocamos seus metodos
+
+-encapsulamento - casa classe tem propriedades e metodos independentemente do 
+restante do codigo
+
+-abstração - consiste em isolar um aspecto das coisas , para tornar mais simples.
+para simplificar e generalizar cada vez mais 
+
+orientação a objetos e programação pro é um tipo de paradigma imperativo - 
+falar como as coisas vao ser chamadas, ordem 
+
+paradigma declarativo - banco de dados sql, programação funcional - onde declara 
+as coisas e elas acontecem 
+
+paradigmas da programacao 
+
+imperative - como resolver os problemas 
+
+declarative - o que vc vai fazer 
+
+OOJS
+
+OOJS - object oriented java script ou JS orientado a objetos 
+
+prototipos em JS - são os esqueletos de todos os objetos, que herdam 
+propriedades e metodos de um prototype.
+o objeto Object.prototype esta no topo desta cadeia 
+
+cadeia de prototipos 
+a cadeia sempre procura ate chegar no null
+
+classes no JS
+não existem nativamente, 
+syntatic sugar: uma sintaxe feita para facilitar a escrita 
+
+JS não possui classes nativamente. Todas as classes são objetos e a herança se 
+dá por protótipos.
+
+construtor
+getter e setter
+classes filhas:
+metodo super - fazer herança  
+makeSouns - subscrever metodo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
